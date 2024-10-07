@@ -43,6 +43,11 @@ pipeline {
                 cleanWs()
             }
         }
+        stage('End') {
+            steps {
+                echo "End of the workspace"
+            }
+        }
         stage("Metrics"){
             steps{
             parallel ( "JavaNcss Report":   
