@@ -355,4 +355,5 @@ public class AsciiFormatter implements Formatter
     public void printEnd( Writer w )
     {
     }
+    // demo
 }
